@@ -1,3 +1,4 @@
+# setup.py
 from setuptools import setup, find_packages
 
 setup(
@@ -25,7 +26,7 @@ setup(
     python_requires=">=3.9",
     entry_points={
         "console_scripts": [
-            "asn-analyzer=main:cli",
+            "asn-analyzer=src.main:cli",  # Fixed entry point
         ],
     },
 )
