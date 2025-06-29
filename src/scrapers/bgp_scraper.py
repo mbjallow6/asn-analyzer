@@ -1,8 +1,9 @@
+# src\scrapers\bgp_scraper.py
 import requests
 from bs4 import BeautifulSoup
 import re
 from typing import Optional
-from ..models.data_models import ASInfo
+from src.models.data_models import ASInfo
 
 class BGPHEScraper:
     def __init__(self):
